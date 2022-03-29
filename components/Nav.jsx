@@ -8,8 +8,8 @@ export const Nav = () => (
       <div className="container-fluid ">
         <Link href="/"><a className="navbar-brand" >My contentlayer boilerplate</a></Link>
         <div className="navbar-nav">
-          <Link href="#" passHref>
-            <AiFillGithub fontSize={'2rem'} />
+          <Link href="https://github.com/CatBoxy/nextjs-contentlayer-boilerplate" passHref>
+            <a style={{ color: 'black' }}><AiFillGithub fontSize={'2rem'} /></a>
           </Link>
         </div>
       </div>
