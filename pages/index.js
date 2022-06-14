@@ -9,27 +9,17 @@ export default function Home({ posts }) {
     <>
       <Layout>
         <div className="row row-cols-1 row-cols-md-2 g-4">
-          {posts.map(
-            ({
-              slug,
-              publishedAt,
-              title,
-              readingTime,
-              author,
-              category,
-              image,
-              description,
-            }) => (
-              <div className="col" key={slug}>
+          {posts.map((post) => (
+              <div className="col" key={post.slug}>
                 <PostCard
-                  slug={slug}
-                  title={title}
-                  readingTime={readingTime}
-                  publishedAt={publishedAt}
-                  author={author}
-                  category={category}
-                  image={image}
-                  description={description}
+                  slug={post.slug}
+                  title={post.title}
+                  readingTime={post.readingTime}
+                  publishedAt={post.publishedAt}
+                  author={post.author}
+                  category={post.category}
+                  image={post.image}
+                  description={post.description}
                 />
               </div>
             )
