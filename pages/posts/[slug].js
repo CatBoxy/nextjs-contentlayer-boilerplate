@@ -4,8 +4,6 @@ import Date from '../../components/Date';
 import { allPosts } from 'contentlayer/generated';
 import { useMDXComponent } from 'next-contentlayer/hooks';
 
-const mdxComponents = {};
-
 export default function Post({ post }) {
   const MDXContent = useMDXComponent(post.body.code);
 
@@ -20,7 +18,7 @@ export default function Post({ post }) {
           <Date dateString={post.publishedAt} />
         </div>
         <div>
-          <MDXContent components={mdxComponents} />
+          <MDXContent />
         </div>
       </article>
     </Layout>
