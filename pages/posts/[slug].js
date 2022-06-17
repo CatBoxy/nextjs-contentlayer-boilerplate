@@ -1,6 +1,6 @@
 import { Layout } from '../../components/Layout';
 import Head from 'next/head';
-import Date from '../../components/Date';
+import { Date } from '../../components/Date';
 import { allPosts } from 'contentlayer/generated';
 import { useMDXComponent } from 'next-contentlayer/hooks';
 

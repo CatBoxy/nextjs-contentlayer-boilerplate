@@ -1,9 +1,9 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import Date from './Date';
+import { Date } from './Date';
 
-export default function PostCard({
+export const PostCard = ({
   title,
   slug,
   image,
@@ -11,7 +11,7 @@ export default function PostCard({
   publishedAt,
   readingTime,
   description,
-}) {
+}) => {
   return (
     <>
       <div className="card" >

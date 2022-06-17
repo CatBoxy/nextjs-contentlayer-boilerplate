@@ -1,5 +1,5 @@
 import { Layout } from '../components/Layout';
-import PostCard from '../components/PostCard';
+import { PostCard } from '../components/PostCard';
 
 import { allPosts } from 'contentlayer/generated';
 import { pick } from 'utils/pick';
