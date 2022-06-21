@@ -30,7 +30,6 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
@@ -44,7 +43,6 @@
 This project is a simple blog setup to get going fast with Nextjs and Contentlayer to manage blog posts.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
 
 
 ### Built With
